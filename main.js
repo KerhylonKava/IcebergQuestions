@@ -1,9 +1,25 @@
 function updateQuestion() {
-    //and comments here are what I'm used to! just a normal "//"
-    var level = document.getElementById("level").value; // Get input
-    var questionDisplay = document.getElementById("questionDisplay"); // Find the element to display the ghost's name
-    
-    // Check if the user entered something
+    let surfaceQuestions = ["qs one here", 
+        "qs two here",
+        "qs three here",
+        "and so on s"
+    ];
+
+    let midQuestions = ["qm one here", 
+        "qm two here",
+        "qm three here",
+        "and so on m"
+    ];
+
+    let deepQuestions = ["qd one here", 
+        "qd two here",
+        "qd three here",
+        "and so ond"
+    ];
+
+    var level = document.getElementById("level").value;
+    var questionDisplay = document.getElementById("questionDisplay");
+
     if (level == "surface") {
         questionDisplay.textContent = "surface question here";
     } 
