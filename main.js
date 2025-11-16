@@ -1,32 +1,35 @@
 function updateQuestion() {
-    let surfaceQuestions = ["qs one here", 
+    const surfaceQuestions = ["qs one here", 
         "qs two here",
         "qs three here",
         "and so on s"
     ];
 
-    let midQuestions = ["qm one here", 
+    const midQuestions = ["qm one here", 
         "qm two here",
         "qm three here",
         "and so on m"
     ];
 
-    let deepQuestions = ["qd one here", 
+    const deepQuestions = ["qd one here", 
         "qd two here",
         "qd three here",
         "and so ond"
     ];
-
+    
     var level = document.getElementById("level").value;
     var questionDisplay = document.getElementById("questionDisplay");
 
     if (level == "surface") {
-        questionDisplay.textContent = "surface question here";
+        const random = Math.floor(Math.random()*surfaceQuestions.length);
+        questionDisplay.textContent = surfaceQuestions[random];
     } 
     else if (level == "mid") {
-        questionDisplay.textContent = "mid here";
+        const random = Math.floor(Math.random()*midQuestions.length);
+        questionDisplay.textContent = midQuestions[random];
     }
     else if (level == "deep") {
-        questionDisplay.textContent = "deep here";
+        const random = Math.floor(Math.random()*deepQuestions.length);
+        questionDisplay.textContent = deepQuestions[random];
     }
 }
