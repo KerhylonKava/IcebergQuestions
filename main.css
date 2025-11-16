@@ -5,6 +5,7 @@ body{
     background-color: #030A3F;
     /*and you comment here using this...*/
     font-weight: 800;
+    font-size: 100px;
     margin-left: 50px;
 
     /*display: flex;
@@ -15,13 +16,15 @@ body{
 
     h1{
     font-family: "Coiny";
+    font-size: 300px;
     font-weight: 400;
     margin-left: 1px;
-    margin-bottom: 0px;
-    margin-top: 10px;
+    margin-bottom: -150px;
+    margin-top: -200px;
     }
 
     h2{
+      font-size: 250;
     margin-bottom: -10px;
     margin-top: 5px;
     }
@@ -32,24 +35,34 @@ body{
     }
 
     select{
-       font-family: "Patrick Hand SC";
+      border-radius:10px;
+      font-family: "Patrick Hand SC";
+      font-size: 100px;
+      background-color: #030A3F;
+      color: #9AA1D6;
+      border-color: #030A3F;
         
     }
-
+    
     button {
+      /*
+      font-family: "Patrick Hand SC";
       padding: 10px 20px;
       font-size: 16px;
       font-weight: 800;
-      border: 2px solid #411e47;
-      background-color: #e6d9e9;
-      color: #000000;
+      font-size: 100px;
+      border: 10px solid #9AA1D6;
+      */
+      background-color: #030A3F;
+      color: #030A3F;
       cursor: pointer;
-      border-radius: 5px;
-      margin-top: 10px;
-  }
+      border-radius: 20px;
+      /*margin-top: 50px;*/
+  } 
 
   button:hover {
-      background-color: #e7cfeb;
+      background-color: #030A3F;
+      color: #9AA1D6;
   }  
 
   a{
@@ -62,14 +75,8 @@ body{
   padding: 0.2em 0.08em;
   }
 
-    input {
-        padding: 10px;
-        font-size: 16px;
-        font-weight: 800;
-        border: 2px solid #411e47;
-        background-color: #e6d9e9;
-        border-radius: 5px;
-        margin-top: 10px;
+  img {
+    image-rendering: pixelated;
   }
 
 }

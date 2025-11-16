@@ -19,7 +19,7 @@ function updateQuestion() {
 "What place do you want to visit that you haven't before?",
 "What's your favorite animal?",
 "What's your favorite childhood toy?",
-"What are your favorite family traditions?",
+"What are your favorite family tradition?",
 "What's your dream job?",
 "What holidays do you celebrate?",
 "What's your favorite time of day?",
