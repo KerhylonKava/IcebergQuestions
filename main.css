@@ -15,11 +15,11 @@ body{
     text-align: center;
 
     h1{
-    font-family: "Coiny";
+    /*font-family: "Coiny";*/
     font-size: 300px;
     font-weight: 400;
     margin-left: 1px;
-    margin-bottom: -150px;
+    margin-bottom: -100px;
     margin-top: -200px;
     }
 
@@ -33,6 +33,11 @@ body{
     margin-bottom: -15px;
     margin-top: -8px;
     }
+    /*
+    p{
+      margin-top: -50px;
+    }
+      */
 
     select{
       border-radius:10px;
@@ -76,7 +81,13 @@ body{
   }
 
   img {
+    margin-top: -50px;
+    margin-bottom: -25px;
     image-rendering: pixelated;
+  }
+  .btit{
+    margin-top: -10px;
+    margin-bottom: 45px;
   }
 
 }
