@@ -2,7 +2,7 @@
 
 This website generates surface, mid, and deep level icebreaker questions to help people get to know each other.
 
-It was started at the <a href="https://www.island-hacks.org/">Island Hacks</a> Hackathon.
+It was started at the <a href="https://www.island-hacks.org/">Island Hacks</a> Hackathon but continued later.
 
 Visit the site here: <a href = "https://kerhylonkava.github.io/IcebergQuestions/index.html">kerhylonkava.github.io/IcebergQuestions/index.html</a>
 
